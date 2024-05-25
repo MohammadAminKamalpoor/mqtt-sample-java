@@ -5,7 +5,7 @@ This project is a simple application to show how to start your first MQTT Applic
 ## Prerequisite
 
 * Maven
-* Install a MQTT Broker, for example [Mosquitto](https://mosquitto.org/)
+* Install a MQTT Broker, for example [TBMQ](https://thingsboard.io/docs/mqtt-broker/install/installation-options/)
 
 ## Build and run the application
 
