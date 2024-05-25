@@ -7,12 +7,24 @@ This project is a simple application to show how to start your first MQTT Applic
 * Maven
 * Install a MQTT Broker, for example [Mosquitto](https://mosquitto.org/)
 
+## Build and run the application
+
+**Build the project with Apache Maven:**
+
+This project is a simple Java application that runs a publisher and subscriber using
+the [Eclipse Paho library](https://eclipse.org/paho/).
+
+```
+$ mvn clean package
+```
 
 ## run the application
 
 **1- Run the MQTT broker**
 
-**2- Run [MqttPublisherApplication.java](src%2Fmain%2Fjava%2Fcom%2Fmqtt%2Fsample%2FMqttPublisherApplication.java) to publish new message**
+**2- Run [MqttPublisherApplication.java](src%2Fmain%2Fjava%2Fcom%2Fmqtt%2Fsample%2FMqttPublisherApplication.java) to
+publish new message**
 
-**3- Run the [MqttSubscriberApplication.java](src%2Fmain%2Fjava%2Fcom%2Fmqtt%2Fsample%2FMqttSubscriberApplication.java) to received and print all the messages published on the defined topic.**
+**3- Run the [MqttSubscriberApplication.java](src%2Fmain%2Fjava%2Fcom%2Fmqtt%2Fsample%2FMqttSubscriberApplication.java)
+to received and print all the messages published on the defined topic.**
 
